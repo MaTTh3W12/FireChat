@@ -1,1 +1,183 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #ede9e9;
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+  max-width: 500px !important;
+  margin: auto;
+  margin-top: 4%;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  /*background: black;
+  color: white;*/
+}
+
+.msg-header{
+  width: 100%;
+  height: 15%;
+  border-bottom: none;
+  display: inline-block;
+  background-color: #007bff;
+}
+
+.msg-header-title{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 35%;
+  margin-top: 12px;
+  float: left;
+}
+
+.active{
+  width: 120px;
+  float: left;
+  margin-top: 3%;
+}
+
+.active h4{
+  font-size: 20px;
+  margin-left: 10px;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.fa{
+  margin-top: 5px;
+  margin-left: 7px;
+  color: #fff;
+}
+
+.main-container{
+  margin-bottom: 150px;
+}
+
+.me{
+  background-color: #000;
+}
+
+.puntero{
+  cursor: pointer;
+}
+
+
+.chat-window{
+  width: 100%;
+  height: 505px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.chat-page{
+  padding: 0 0 39.5px 0;
+}
+
+.msg-inbox{
+  overflow: hidden;
+}
+
+.chats{
+  padding: 30px 15px 0 25px;
+}
+
+.msg-page{
+  height: 300px;
+}
+
+.app-mensajes{
+  overflow-y:scroll;
+  scrollbar-width: 10px;
+  padding: 10px;
+  height:370px;
+}
+
+.app-mensajes::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 4px;
+}
+
+.ico{
+  margin-right: 5px;
+}
+
+.recived-msg-inbox p{
+  border-radius: 10px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+button::first-letter{
+  font-weight: 900;
+}
+
+.msg-bottom{
+  position: relative;
+  height: 11%;
+  background-color: #007bff;
+}
+
+.input-group{
+  float: right;
+  margin-top: 6px;
+  margin-right: 20px;
+  outline: none !important;
+  border-radius: 20px;
+  width: 61% !important;
+  background-color: #fff;
+}
+
+
+.form-control{
+  border: none !important;
+  border-radius: 20px !important;
+}
+
+.input-group-text{
+  background: transparent !important;
+  border: none !important;
+}
+
+.input-group .fa{
+  color: #007bff;
+  float: right;
+}
+
+.form-control:focus{
+  border-color: none !important;
+  box-shadow: none !important;
+  border-radius: 20px;
+}
+
+/* Animaciones */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
